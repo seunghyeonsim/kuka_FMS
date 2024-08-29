@@ -5,7 +5,7 @@
 
     <!-- Joint between the end effector and the D455 camera -->
     <xacro:sensor_d455 parent="end_effector_link" name="camera" use_nominal_extrinsics="true">
-        <origin xyz="-0.075 0 0" rpy="0 ${PI/2} 0" />
+        <origin xyz="-0.145 0 -0.155" rpy="0 ${PI/2} 0" />
     </xacro:sensor_d455>
 
     <!-- Gazebo 관련 설정 추가 -->

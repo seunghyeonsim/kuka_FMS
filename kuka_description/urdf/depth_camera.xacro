@@ -4,7 +4,7 @@
     <joint name="camera_joint" type="fixed">
         <parent link="end_effector_link"/>
         <child link="camera_link"/>
-        <origin xyz="-0.075 0 0" rpy="0 ${PI/2} 0"/>
+        <origin xyz="-0.145 0 0" rpy="0 ${PI/2} 0"/>
     </joint>
 
     <link name="camera_link">
